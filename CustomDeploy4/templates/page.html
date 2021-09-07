@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/static/main.css' />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetDb</title>
+</head>
+
+<html>
+<body>
+
+    <h1>Please fill out this form so I can update the database</h1>
+    <p class="Result"> {{ returnResult }}</p>
+    <form action="/add" method="POST">
+        <label><b>Addition: </b></label>
+        <input type="Number" name="value1" placeholder="0">
+        <input type="Number" name="value2" placeholder="0">
+        <button type="submit" value="submit">Add</button>
+    </form>
+    
+</body
+
